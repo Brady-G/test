@@ -20,12 +20,6 @@
                 border-radius: 1rem;
                 }
 
-                .circle {
-                width: 10rem;
-                height:10rem;
-                border-radius; 50%;
-                }
-
                 @media screen and (max-width: 800px) {
                 .container {
                 grid-template-columns: 1fr 1fr;
@@ -46,36 +40,13 @@
                 <div>
                     <h1>Test</h1>
                     <p>Subtext</p>
+                    <a href="https://example.com">Subtext</a>
                 </div>
                 <div>
                     <h1>Test</h1>
                     <p>Subtext</p>
                 </div>
             </div>
-            <div class="circle"></div>
         </div>
     </foreignObject>
-    <script>
-        // <![CDATA[
-        function getColor() {
-        const R = Math.round(Math.random() * 255)
-        .toString(16)
-        .padStart(2, "0");
-
-        const G = Math.round(Math.random() * 255)
-        .toString(16)
-        .padStart(2, "0");
-
-        const B = Math.round(Math.random() * 255)
-        .toString(16)
-        .padStart(2, "0");
-
-        return `#${R}${G}${B}`;
-        }
-
-        setInterval(() => {
-        document.querySelector(".circle").style.backgroundColor = getColor();
-        }, 2000)
-        // ]]>
-    </script>
 </svg>
