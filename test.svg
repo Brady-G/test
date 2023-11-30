@@ -2,21 +2,45 @@
     <foreignObject height="100%" width="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-                svg:hover p {
-                    color: blue;
-                }
                 h1 {
-                    margin: 0;
-                    font-family: monospace;
+                margin: 0;
+                font-family: monospace;
+                }
+
+                .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 1rem;
+                padding: 1rem;
                 }
 
                 .container > div {
-                    background-color: gray;
-                    padding: 1rem;
-                    border-radius: 1rem;
+                background-color: gray;
+                padding: 1rem;
+                border-radius: 1rem;
+                }
+
+                @media screen and (max-width: 800px) {
+                .container {
+                grid-template-columns: 1fr 1fr;
+                }
+                }
+
+                @media screen and (max-width: 500px) {
+                .container {
+                grid-template-columns: 1fr;
+                }
                 }
             </style>
             <div class="container">
+                <div>
+                    <h1>Test</h1>
+                    <p>Subtext</p>
+                </div>
+                <div>
+                    <h1>Test</h1>
+                    <p>Subtext</p>
+                </div>
                 <div>
                     <h1>Test</h1>
                     <p>Subtext</p>
