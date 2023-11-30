@@ -20,6 +20,12 @@
                 border-radius: 1rem;
                 }
 
+                .circle {
+                width: 10rem;
+                height:10rem;
+                border-radius; 50%;
+                }
+
                 @media screen and (max-width: 800px) {
                 .container {
                 grid-template-columns: 1fr 1fr;
@@ -46,6 +52,7 @@
                     <p>Subtext</p>
                 </div>
             </div>
+            <div class="circle"></div>
         </div>
     </foreignObject>
     <script>
