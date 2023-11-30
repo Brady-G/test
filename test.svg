@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="1920" height="500" data-theme="dark" viewbox="0 0 1920 500">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" data-theme="dark">
     <foreignObject height="100%" width="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
@@ -40,7 +40,6 @@
                 <div>
                     <h1>Test</h1>
                     <p>Subtext</p>
-                    <a href="https://example.com">Test</a>
                 </div>
                 <div>
                     <h1>Test</h1>
