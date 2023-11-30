@@ -48,5 +48,27 @@
             </div>
         </div>
     </foreignObject>
-    <script xmlns=""/>
+    <script>
+        // <![CDATA[
+        function getColor() {
+        const R = Math.round(Math.random() * 255)
+        .toString(16)
+        .padStart(2, "0");
+
+        const G = Math.round(Math.random() * 255)
+        .toString(16)
+        .padStart(2, "0");
+
+        const B = Math.round(Math.random() * 255)
+        .toString(16)
+        .padStart(2, "0");
+
+        return `#${R}${G}${B}`;
+        }
+
+        setInterval(() => {
+        document.querySelector(".circle").style.backgroundColor = getColor();
+        }, 2000)
+        // ]]>
+    </script>
 </svg>
