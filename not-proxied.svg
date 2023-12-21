@@ -1,7 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" fill="none">
     <foreignObject height="100%" width="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Test.svg"/>
-        </div>
+        <style>
+            div {
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/bd/Test.svg");
+            height: 100%;
+            width: 100%;
+            }
+        </style>
+        <div></div>
     </foreignObject>
 </svg>
